@@ -1,9 +1,26 @@
-/* Basic Font Setup */
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 *{
   margin: 0;
@@ -142,7 +159,7 @@ main section {
 }
 /* Stats Section */
 .stats-section {
-  font-family: 'Times New Roman', Times, serif;
+  /* : 'Times New Roman', Times, seriffont-family; */
   background: rgba(176, 123, 236, 0.171);
   padding: 50px 80px;
   border-radius: 24px;
@@ -159,11 +176,11 @@ main section {
   margin-top: 60px;
 }
 .stat-box {
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   text-align: center;
 }
 .stat-number {
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   font-size: 80px;
   font-weight: 976px;
   color: #4E47FF;
@@ -171,7 +188,7 @@ main section {
 }
 
 .stat-description{
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   width: 160px;
   height: 24px;
 }
