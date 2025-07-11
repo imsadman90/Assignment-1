@@ -175,3 +175,49 @@ main section {
   width: 160px;
   height: 24px;
 }
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.testimonial {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.05);
+}
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.testimonial-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+}
+.review-date {
+  font-size: 14px;
+  color: #757575;
+  margin: 0;
+}
