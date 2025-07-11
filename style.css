@@ -221,3 +221,80 @@ main section {
   color: #757575;
   margin: 0;
 }
+/* Focus Section */
+.focus-section{
+  background-color: #faf7f7;
+  text-align: center;
+  border-radius: 14px;
+}
+
+
+/* .btn-medium{
+  font-weight: 1px;
+  width: 195px;
+  height: 41px;
+  font: #FFFFFF;
+  gap: 10px;
+  padding: 36px 12px;
+  border-radius: 10px;
+  text-align: center;
+} */
+.focus-heading {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.focus-image {
+  margin-top: 40px;
+  border-radius: 48px;
+}
+
+/* Footer */
+.form-section {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-column div>h3{
+  font-size: 48px;
+  font-weight: 700;
+  color: #181818;
+  width: 100%;
+}
+.form-section form{
+  width: 80%;
+}
+.form-section label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #181818;
+  margin-bottom: 8px;
+}
+
+.form-section textarea,input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* footer .btn-primary {
+  max-width: 180px;
+  padding: 14px 30px;
+  cursor: pointer;
+  align-self: flex-start;
+} */
+
+/* Responsive */
+
+  .testimonial-section,
+  .focus-section {
+    padding: 40px 20px;
+    margin-bottom: 80px;
+    max-width: 100%;
+  }
